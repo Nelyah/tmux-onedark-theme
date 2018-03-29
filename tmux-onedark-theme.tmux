@@ -1,5 +1,6 @@
 #!/bin/bash
 onedark_black="#282c34"
+onedark_blueish="#99bed8"
 onedark_blue="#61afef"
 onedark_yellow="#e5c07b"
 onedark_red="#e06c75"
@@ -59,7 +60,7 @@ setw "window-status-activity-attr" "none"
 setw "window-status-separator" ""
 
 set "window-style" "fg=$onedark_comment_grey,bg=$onedark_black"
-set "window-active-style" "fg=$onedark_white,bg=$onedark_black"
+set "window-active-style" "fg=$onedark_blueish,bg=$onedark_black"
 
 set "pane-border-fg" "$onedark_white"
 set "pane-active-border-fg" "$onedark_white"
